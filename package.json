@@ -1,12 +1,16 @@
 {
   "name": "facebook-personal-bot",
-  "version": "4.0.0",
-  "description": "Facebook Bot",
+  "version": "6.0.0",
+  "description": "Facebook Bot with Complete Debug System",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
     "fca-unofficial-fixed": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
